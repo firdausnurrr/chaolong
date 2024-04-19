@@ -18509,23 +18509,6 @@ p {
   padding-top: 30px;
   border-top: 2px solid #dee2e6;
 }
-@media (max-width: 767.98px) {
-  .pagination-container {
-    margin-top: 45px;
-    padding-top: 25px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .product .content {
-    display: grid !important; 
-  }
-
-  #product-row {
-    grid-template-columns: repeat(2, 1fr) !important;
-    grid-gap: 10px !important; /* Sesuaikan dengan jarak yang diinginkan */
-  }
-}
 
 .pricing-table {
   list-style-type: none;
