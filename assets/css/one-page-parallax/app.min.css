@@ -25575,3 +25575,11 @@ p {
     max-width: 50%; /* Maksimum lebar 50% untuk mengatur 2 kolom */
   }
 }
+
+
+.custemer img{
+  width: auto;
+  margin-left: 2rem;
+  height: 7rem;
+  object-fit:fill;
+}
