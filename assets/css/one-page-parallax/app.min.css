@@ -16408,13 +16408,18 @@ p {
   position: relative;
 }
 .footer {
+  margin-bottom: -75px;
   padding: 60px 0;
   background: #22282d;
-  text-align: center;
+  text-align: start;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8125rem;
   box-shadow: inset 0 100px 80px -80px rgba(0, 0, 0, 0.7);
 }
+.footer ul, .footer li {
+  list-style: none;
+}
+
 .footer .footer-brand-logo {
   display: block;
   margin: 0 auto 10px;
@@ -16445,6 +16450,38 @@ p {
 @media (max-width: 767.98px) {
   .header .nav.navbar-nav {
     margin: 7.5px 0;
+  }
+}
+
+
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
   }
 }
 .header .nav.navbar-nav .nav-item .nav-link {
@@ -18478,6 +18515,18 @@ p {
     padding-top: 25px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .product .content {
+    display: grid !important; 
+  }
+
+  #product-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 10px !important; /* Sesuaikan dengan jarak yang diinginkan */
+  }
+}
+
 .pricing-table {
   list-style-type: none;
   margin: 0 -10px;
