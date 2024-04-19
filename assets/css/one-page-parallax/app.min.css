@@ -25556,3 +25556,22 @@ p {
 .section .section-container {
   position: relative
 }
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+  .product .content .col-sm-6 {
+    flex: 0 0 50%; /* Set flex basis to 50% untuk mengatur 2 kolom */
+    max-width: 50%; /* Maksimum lebar 50% untuk mengatur 2 kolom */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .product .content .col-sm-6 {
+    flex: 0 0 50%; /* Set flex basis to 50% untuk mengatur 2 kolom */
+    max-width: 50%; /* Maksimum lebar 50% untuk mengatur 2 kolom */
+  }
+}
