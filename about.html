@@ -21,7 +21,8 @@
 <body data-bs-spy='scroll' data-bs-target='#header' data-bs-offset='51'>
 	<!-- begin #page-container -->
 	<div id="page-container" class="fade">
-		<!-- begin #header -->
+		
+		<!-- ================================ HEADER START ============================== -->
 		<div id="header" class="header navbar navbar-transparent navbar-fixed-top navbar-expand-lg">
 			<!-- begin container -->
 			<div class="container">
@@ -30,7 +31,7 @@
 					<img src="assets/img/icon/favicon.png" width="30px" height="30px">
 					<!-- <span class="brand-logo"></span> -->
 					<span class="brand-text">
-						<span class="text-theme"></span>&nbsp; PT CHAO LONG
+						<span class="text-theme"></span>&nbsp; PT CHAO LONG 
 					</span>
 				</a>
 				<!-- end navbar-brand -->
@@ -40,70 +41,54 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<!-- end navbar-header -->
+				<!-- end navbar-toggle -->
 				<!-- begin navbar-collapse -->
 				<div class="collapse navbar-collapse" id="header-navbar">
 					<ul class="nav navbar-nav navbar-end">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html">HOME</a>
+							<a class="nav-link " href="index.html" data-click="scroll-to-target" data-scroll-target="#home">HOME</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link active" href="about" data-click="scroll-to-target" data-scroll-target="#about">ABOUT <b class="caret"></b></a>
+							<a class="nav-link active" href="about.html" data-click="scroll-to-target" data-scroll-target="#about">ABOUT <b class="caret"></b></a>
 							<div class="dropdown-menu dropdown-menu-left animate__animated animate__fadeInDown">
 								<a class="dropdown-item" href="global_layout.html">Group Profile</a>
 								<a class="dropdown-item" href="coorporate_responcibility.html">Coorporate Social Responsibility</a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="index.html" data-click="scroll-to-target">PRODUCT</a></li>
+						<li class="nav-item"><a class="nav-link" href="#work" data-click="scroll-to-target">PRODUCT</a></li>
 						<li class="nav-item"><a class="nav-link" href="contact.html" data-click="scroll-to-target">CONTACT</a></li>
 					</ul>
 				</div>
 				<!-- end navbar-collapse -->
 			</div>
-			<!-- end container -->
 		</div>
-		<!-- end #header -->
+		<!-- ================================ HEADER END ============================== -->
+		
+		<!-- ================================ HEADER LITE START ============================== -->
         <div id="action-box" class="content has-bg" data-scrollview="true">
-			<!-- begin content-bg -->
 			<div class="content-bg" style="background-image: url(assets/img/bg/bgm1.jpg)"
 				data-paroller-factor="0.5"
 				data-paroller-factor-md="0.01"
 				data-paroller-factor-xs="0.01">
 			</div>
-			<!-- end content-bg -->
-			<!-- begin container -->
 			<div class="container" data-animation="true" data-animation-type="animate__fadeInRight">
-				<!-- begin row -->
 				<div class="row action-box">
-					<!-- begin col-9 -->
 					<div class="col-lg-12">
-						<!-- <div class="icon-large text-theme">
-							<i class="fa fa-binoculars"></i>
-						</div> -->
                         <br><br>
 						<h3 style="text-align: center;">ABOUT US</h3>
 					</div>
-					<!-- end col-9 -->
 				</div>
-				<!-- end row -->
 			</div>
-			<!-- end container -->
 		</div>
-
+		<!-- ================================ HEADER LITE END ============================== -->
         
-
-        <!-- begin #about -->
+        <!-- ================================ ABOUT START ============================== -->
 		<div id="about" class="content" data-scrollview="true">
-			<!-- begin container -->
 			<div class="container" data-animation="true" data-animation-type="animate__fadeInDown">
-				<!-- <h2 class="content-title">About Us</h2>
-				<p class="content-desc"> -->
+				<p class="content-desc">
 				</p>
-				<!-- begin row -->
 				<div class="row">
-					<!-- begin col-4 -->
 					<div class="col-lg-8">
-						<!-- begin about -->
 						<div class="about">
 							<h3 class="mb-3">Our Story</h3>
 							<p>
@@ -116,159 +101,267 @@
 								kami bekerja dalam beberapa shift, pagi dan malam, jadi ini dimaksudkan untuk Anda yang ingin bantuan dapat kami bantu seketika. 
 							</p>
 						</div>
-						<!-- end about -->
 					</div>
-					<!-- end col-4 -->
-					<!-- begin col-4 -->
 					<div class="col-lg-4">
 						<h3 class="mb-3">Our Philosophy</h3>
-						<!-- begin about-author -->
 						<div class="about-author">
 							<div class="quote">
 								<i class="fa fa-quote-left"></i>
 								<h3>We work harder,<br /><span>to let our customer keep simple</span></h3>
 								<i class="fa fa-quote-right"></i> 
 							</div>
-					</div> <br/> <br/>
-					<!-- end col-4 -->
+					</div> <br/> 
 				</div>
-				<!-- end row -->
 			</div>
-			<!-- end container -->
 		</div>
-		<!-- end #about -->
+		<!-- ================================ ABOUT END ============================== -->
 		
+		<!-- ================================ HISTORY START ============================== -->
+		<div id="team" class="content" data-scrollview="true">
+			<div class="container">
+				<h2 class="content-title">History</h2>
+				<p class="content-desc">
+				</p>
+		<!-- ================= Slider Start ============ -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 4"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 5"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 6"></button>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+		<div class="carousel-inner" style="border-radius: 30px;
 
-		
-<!-- ================= Slider Start ============ -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
-	<div class="carousel-indicators">
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 4"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 5"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 6"></button>
-	</div>
-	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Previous</span>
-	</button>
-	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Next</span>
-	</button>
-	<div class="carousel-inner" style="border-radius: 30px;
-
-	  /* box-shadow: 15px 19px 20px 1px rgb(14, 49, 145); 
-	  -webkit-box-shadow: 15px 19px 20px 1px rgba(14,49,145);
-	  -moz-box-shadow: 15px 19px 20px 1px rgba(14,49,145); */
-	">
-	  <div class="carousel-item active ">
-		<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover; background: var(--bs-app-theme);
-		color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Mulai Memproduksi<br />Fuel Sender, Mechanical Speedometer assy</span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2005</h3>
-		  </div>
-		</div>
-	  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Proses Didirikan<br />Surface Mounted Technology</span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2014</h3>
-		  </div>
-		</div>
-	  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h3 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Mulai mengekspor<br />ke Vietnam & Thailand</span>
-			</h3>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2016</h3>
-		  </div>
-		</div>
-	  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Memproduksi Meter Assy Digital Speedometer<br />Yamaha Aerox </span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2017</h3>
-		  </div>
-		</div>
-	  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Mendapat Penghargaan di Hamamatsu Jepang <br />
-				  “as Best Kaizen Implementation on Yamaha’s TVP Kaizen Contest 2018”</span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2018</h3>
-		  </div>
-		</div>
-	  </div>
-	  <div class="carousel-item ">
-		  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-		  color: var(--bs-app-theme-color);">
-			  <div>
+			/* box-shadow: 15px 19px 20px 1px rgb(14, 49, 145); 
+			-webkit-box-shadow: 15px 19px 20px 1px rgba(14,49,145);
+			-moz-box-shadow: 15px 19px 20px 1px rgba(14,49,145); */
+		">
+			<div class="carousel-item active ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover; background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
 				<h2 style="text-align: center; display: inline-block;" class="desc-title">
-				  <span style="font-size: 24px;">Produksi CCU didirikan <br />“Teknologi Baru dari Yamaha,<br /> menghubungkan Sepeda Motor dengan perangkat smart-phone”</span>
+					<span style="font-size: 24px;">Mulai Memproduksi<br />Fuel Sender, Mechanical Speedometer assy</span>
 				</h2>
-				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2020</h3>
-			  </div>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2005</h3>
+				</div>
 			</div>
-		  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Dianugerahi Predikat Luar Biasa <br /> dalam Implementasi TVP Kaizen YIMM <br /> 
-				Dianugerahi Predikat Luar Biasa <br /> dalam VAVE Idea <br />dari PT. Asahi Denso Indonesia</span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2022</h3>
-		  </div>
+			</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h2 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Proses Didirikan<br />Surface Mounted Technology</span>
+				</h2>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2014</h3>
+				</div>
+			</div>
+			</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h3 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Mulai mengekspor<br />ke Vietnam & Thailand</span>
+				</h3>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2016</h3>
+				</div>
+			</div>
+			</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h2 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Memproduksi Meter Assy Digital Speedometer<br />Yamaha Aerox </span>
+				</h2>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2017</h3>
+				</div>
+			</div>
+			</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h2 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Mendapat Penghargaan di Hamamatsu Jepang <br />
+						“as Best Kaizen Implementation on Yamaha’s TVP Kaizen Contest 2018”</span>
+				</h2>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2018</h3>
+				</div>
+			</div>
+			</div>
+			<div class="carousel-item ">
+				<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+				color: var(--bs-app-theme-color);">
+					<div>
+					<h2 style="text-align: center; display: inline-block;" class="desc-title">
+						<span style="font-size: 24px;">Produksi CCU didirikan <br />“Teknologi Baru dari Yamaha,<br /> menghubungkan Sepeda Motor dengan perangkat smart-phone”</span>
+					</h2>
+					<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2020</h3>
+					</div>
+				</div>
+				</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h2 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Dianugerahi Predikat Luar Biasa <br /> dalam Implementasi TVP Kaizen YIMM <br /> 
+					Dianugerahi Predikat Luar Biasa <br /> dalam VAVE Idea <br />dari PT. Asahi Denso Indonesia</span>
+				</h2>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2022</h3>
+				</div>
+			</div>
+			</div>
+			<div class="carousel-item ">
+			<div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
+			color: var(--bs-app-theme-color);">
+				<div>
+				<h2 style="text-align: center; display: inline-block;" class="desc-title">
+					<span style="font-size: 24px;">Continue<br />The Journey</span>
+				</h2>
+				<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2022</h3>
+				</div>
+			</div>
+			</div>
 		</div>
-	  </div>
-	  <div class="carousel-item ">
-	  <div class="d-flex justify-content-center align-items-center" style="height: 20rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme);
-	  color: var(--bs-app-theme-color);">
-		  <div>
-			<h2 style="text-align: center; display: inline-block;" class="desc-title">
-			  <span style="font-size: 24px;">Continue<br />The Journey</span>
-			</h2>
-			<h3 style="text-align: center; font-size: 20px; margin-top: 2rem;">2022</h3>
-		  </div>
 		</div>
-	  </div>
+		<!-- ================= Slider End ============ -->
+			</div>
+		</div>
+		<!-- ================================ HISTORY END ============================== -->
+  	
+ 	<!-- ================================ FOOTER START ================================ -->
+	 <div class="footer d-flex justify-content-start">
+		<div class="container">
+			<div class="row gx-5">
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<div class="footer-logo">
+						<span class="footer-logo-text">PT CHAO LONG</span>
+					</div>
+					<p class="footer-desc">
+						PT Chao long Motor Part Indonesia adalah perusahaan manufacturing yang memproduksi
+						Speedo meter dengan varian dan suku cadang mobil lainnya.
+					</p>
+					<h4 class="footer-title">Help Center</h4>
+					<div class="footer-media-list">
+						<a href="#" class="me-1"><i class="fas fa-lg fa-phone fa-fw"></i></a>
+						<a href="#" class="me-2"><i class="fas fa-lg fa-envelope fa-fw"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h4 class="footer-title">CORPORATE</h4>
+					<ul class="footer-link-list">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Group Company</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Product Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h4 class="footer-title">INFORMATION CONTACT</h4>
+					<ul class="footer-link-list">
+						<li><a href="#">Delta Silicon Industrial Park<br> JL Meranti I Blok L 2 NO 5–6<br>Lippo
+								Cikarang–Bekasi 17550 Indonesia</a></li>
+						<li><a href="tel:+622189118282" class="me-1"><i class="fas fa-lg fa-phone fa-fw"></i>
+								+62 21 8911 8282</a></li>
+						<li><a href="mailto:marketing@chaolong.co.id" class="me-2"><i
+									class="fas fa-lg fa-envelope fa-fw"></i> marketing@chaolong.co.id</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h4 class="footer-title">PETA LOKASI</h4>
+					<ul class="footer-link-list">
+						<li><iframe
+								src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.551914476355!2d107.117062211668!3d-6.311198917783041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd91768875e596173!2sPT.%20Chao%20Long%20Motor%20Part%20Indonesia!5e0!3m2!1sid!2sid!4v1613642260739!5m2!1sid!2sid"
+								width="100%" height="150" frameborder="0" style="border:0;" allowfullscreen=""
+								aria-hidden="false" tabindex="0"></iframe></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
-  </div>
-  
-  <!-- ================= Slider End ============ -->
+	 <!-- copyright -->
+	 <div class=" d-flex justify-content-start">
+	 <div class="d-flex justify-content-center align-items-center" style="height: 5rem; width: 100%; object-fit: cover;   background: var(--bs-app-theme); color: var(--bs-app-theme-color);">
+		<div class="container">
+			<div class="footer-copyright">
+				<div class="row">
+					<div class="col-lg-12 text-center text-lg-start mb-3 mb-lg-0 d-flex justify-content-center">
+						<div class="footer-copyright-text" style="margin-top: 10px;">&copy; 2023 PT Chao Long Motor Part Indonesia All
+							Rights Reserved</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- copyright -->
+	<!-- ================================ FOOTER END ================================ -->
+  							
+	<!-- ================================ THEME-PANEL START ================================ -->
+	<div class="theme-panel">
+		<a href="javascript:;" data-toggle="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+		<div class="theme-panel-content">
+			<div class="theme-list clearfix">
+				<div class="theme-list-item active"><a href="javascript:;" class="bg-red" data-theme-class="theme-red" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Default" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-pink" data-theme-class="theme-pink" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Pink" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-orange" data-theme-class="theme-orange" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Orange" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-yellow" data-theme-class="theme-yellow" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Yellow" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-lime" data-theme-class="theme-lime" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Lime" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-green" data-theme-class="theme-green" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Green" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-teal" data-theme-class="theme-teal" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Teal" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-cyan" data-theme-class="theme-cyan" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Aqua" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-blue" data-theme-class="theme-blue" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Blue" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-purple" data-theme-class="theme-purple" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Purple" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-indigo" data-theme-class="theme-indigo" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Indigo" data-original-title="" title="">&nbsp;</a></div>
+				<div class="theme-list-item"><a href="javascript:;" class="bg-gray-500" data-theme-class="theme-gray-500" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Gray" data-original-title="" title="">&nbsp;</a></div>
+			</div>
+			<hr class="mb-0" />
+			<div class="row mt-10px pt-3px">
+				<div class="col-9 control-label text-dark fw-bold">
+					<div>Dark Mode <span class="badge bg-primary ms-1 position-relative py-4px px-6px" style="top: -1px">NEW</span></div>
+					<div class="lh-14 fs-13px">
+						<small class="text-dark opacity-50">
+							Adjust the appearance to reduce glare and give your eyes a break.
+						</small>
+					</div>
+				</div>
+				<div class="col-3 d-flex">
+					<div class="form-check form-switch ms-auto mb-0 mt-2px">
+						<input type="checkbox" class="form-check-input" name="app-theme-dark-mode" id="appThemeDarkMode" value="1" />
+						<label class="form-check-label" for="appThemeDarkMode">&nbsp;</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<!-- ================================ THEME-PANEL END ================================ -->
+	
+		<!-- ================== BEGIN BASE JS ================== -->
+		<script src="assets/js/one-page-parallax/vendor.min.js"></script>
+		<script src="assets/js/one-page-parallax/app.min.js"></script>
 
-    <!-- ================== BEGIN BASE JS ================== -->
-	<script src="assets/js/one-page-parallax/vendor.min.js"></script>
-	<script src="assets/js/one-page-parallax/app.min.js"></script>
-
-    <!-- ================== WHATSAPP ================== -->	
-	<div style="position:fixed;left:20px;bottom:25px;">
-		<a href="https://api.whatsapp.com/send?phone=+6281515346693&text=Halo%20PT%20Chaolong" target="_blank"> <img src="assets/img/icon/whatsapp.png" width="50px"></a>
-  	</div>
+		<!-- ================== WHATSAPP ================== -->	
+		<div style="position:fixed;left:20px;bottom:25px;">
+			<a href="https://api.whatsapp.com/send?phone=+6281515346693&text=Halo%20PT%20Chaolong" target="_blank"> <img src="assets/img/icon/whatsapp.png" width="50px"></a>
+		</div>
 	
 </body>
 </html>

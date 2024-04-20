@@ -25583,3 +25583,32 @@ p {
   height: 7rem;
   object-fit:fill;
 }
+
+.footer-map .footer-link-map {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+.footer {
+  padding: 5rem 0
+}
+
+.footer .footer-link-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+.footer .footer-link-list li+li {
+  padding-top: .25rem
+}
+
+.footer .footer-media-list {
+  display: flex;
+  align-items: center
+}
+
+.footer .footer-copyright {
+  height: 1rem;
+}
